@@ -89,14 +89,23 @@ data_crime_2019=pd.read_csv('Crime_Data_from_2010_to_2019_20240118.csv')
 ## 2-Assess data
 
 ****Quality Issue 1: completeness => Missing data both datasets****
+
 its completeness issue Quality issue there is a lot of missing values in both datasets :
 data_crime_2019 dataset : there is missing values in Crm Cd 2 ,Crm Cd 3 ,Crm Cd 4 most of the columns are missing values and vict_sex,vict_descent, weapon_used_cd ,weapon_desc more than 100 K missing values
-data_crime_2024 dataset : there is missing values incrm_cd_2 ,cross_street most of the columns are minssing values and weapon_used_cd , weapon_desc half of the columns are missing values
+data_crime_2024 dataset : there is missing values incrm_cd_2 ,cross_street most of the columns are minssing values and weapon_used_cd , weapon_desc half of the columns are missing values.
+
+
 ****Quality Issue 2: Uniqueness   => duplicates values both datasets****
-its Uniqueness issue in data Quality issues there is 230021 rows duplicte depand in dr_no column in data_crime_2019 dataset
+
+its Uniqueness issue in data Quality issues there is 230021 rows duplicte depand in dr_no column in data_crime_2019 dataset.
+
+
 ****Tidiness Issue 1: uppercase letters are used for column names in data_crime_2019 and lowercase letters are used for column names in data_crime_2024****
-we have to change data_crime_2019 columns name to lower case letters and change columns to snake_case so we can index it easliy
+we have to change data_crime_2019 columns name to lower case letters and change columns to snake_case so we can index it easliy.
+
+
 ****Tidiness Issue 2:its Multiple variables are stored in one column****
+
 there is muliple variables in the same cell in one columns crm cd desc the crime description and grand and many crimes
 
 
