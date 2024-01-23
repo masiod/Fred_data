@@ -57,9 +57,14 @@ Method: Gather data by accessing APIs from source data.lacity.org . The data was
 
 
 
-```data=requests.get('https://data.lacity.org/resource/2nrs-mtv8.json').json()
+```
+data=requests.get('https://data.lacity.org/resource/2nrs-mtv8.json').json()
 
 data_crime_2020_2024 = pd.DataFrame.from_dict(data)
+#store the raw data in your local data store
+data_crime_2020_2024.to_csv('data_crime_2024',index=False)
+#retrive the data form my local device 
+data_crime_2024=pd.read_csv('data_crime_2024')
 ```
 
 
@@ -76,10 +81,9 @@ Type: CSV File
 Method: The data was gathered using the Download data manually method from (https://data.lacity.org/) source.
 
 
-```#Optional: store the raw data in your local data store
-data_crime_2020_2024.to_csv('data_crime_2024',index=False)
-#retrive the data form my local device 
-data_crime_2024=pd.read_csv('data_crime_2024')
+```
+#2nd data gathering and loading method 
+data_crime_2019=pd.read_csv('Crime_Data_from_2010_to_2019_20240118.csv')
 ```
 
 ##2-Assess data
