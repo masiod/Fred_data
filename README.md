@@ -30,7 +30,8 @@ from folium import plugins
 from folium.plugins import HeatMap
 
 plt.style.use('fivethirtyeight')
-pd.set_option('display.max_rows', 500)```
+pd.set_option('display.max_rows', 500)
+```
 
 
 
@@ -57,7 +58,8 @@ Method: Gather data by accessing APIs from source data.lacity.org (e.g., The dat
 
 
 
-```data=requests.get('https://data.lacity.org/resource/2nrs-mtv8.json').json()
+`data=requests.get('https://data.lacity.org/resource/2nrs-mtv8.json').json()
+`
 
 data_crime_2020_2024 = pd.DataFrame.from_dict(data)```
 
