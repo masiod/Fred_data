@@ -3,11 +3,8 @@
 about datasets
 
 
-This dataset reflects incidents of crime in the City of Los Angeles from 2010 - 2019. This data is transcribed from original crime reports that are typed on paper and therefore there may be some inaccuracies within the data. Some location fields with missing data are noted as (0°, 0°). Address fields are only provided to the nearest hundred block in order to maintain privacy. This data is as accurate as the data in the database. Please note questions or concerns in the comments.
+Columns in the two Datasets
 
-
-
-Columns in this Dataset
 Column Name	Description	                                                                                                          Type
 DR_NO           Division of Records Number: Official file number made up of a 2 digit year, area ID, and 5 digits	                  Plain Text
 Date Rptd	MM/DD/YYYY                          										          Date & Time
@@ -39,5 +36,28 @@ LOCATION	Street address of crime incident rounded to the nearest hundred block t
 Cross Street	Cross Street of rounded Address												  Plain Text
 LAT		Latitude														  float
 LON		Longtitude														  float
+
+
+first we import libraries such :
+
+import pandas as pd   
+import requests
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.express as px
+import missingno as msno
+from folium import plugins
+from folium.plugins import HeatMap
+
+plt.style.use('fivethirtyeight')
+pd.set_option('display.max_rows', 500)
+
+first dataset Data Crime from 2010-2019 (data_cirme_2019):
+ 
+about:
+
+This dataset reflects incidents of crime in the City of Los Angeles from 2010 - 2019. This data is transcribed from original crime reports that are typed on paper and therefore there may be some inaccuracies within the data. Some location fields with missing data are noted as (0°, 0°). Address fields are only provided to the nearest hundred block in order to maintain privacy. This data is as accurate as the data in the database. Please note questions or concerns in the comments.
+
+
 
 
