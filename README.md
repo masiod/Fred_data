@@ -140,11 +140,10 @@ there is muliple variables in the same cell in one columns crm cd desc the crime
 
 ## 3-Cleaning data
 
-# Clean the data to solve the 4 issues corresponding to data quality and tidiness found in the assessing step. **Make sure you include justifications for your cleaning decisions.**
-# 
-# After the cleaning for each issue, please use **either** the visually or programatical method to validate the cleaning was succesful.
-# 
-# At this stage, you are also expected to remove variables that are unnecessary for your analysis and combine your datasets. Depending on your datasets, you may choose to perform variable combination and elimination before or after the cleaning stage. Your dataset must have **at least** 4 variables after combining the data.
+ Clean the data to solve the 4 issues corresponding to data quality and tidiness found in the assessing step. **Make sure you include justifications for your cleaning decisions.**
+ 
+ After the cleaning for each issue, please use **either** the visually or programatical method to validate the cleaning was succesful.
+ At this stage, you are also expected to remove variables that are unnecessary for your analysis and combine your datasets. Depending on your datasets, you may choose to perform variable combination and elimination before or after the cleaning stage. Your dataset must have **at least** 4 variables after combining the data.
 
 Make copies of the datasets to ensure the raw dataframes 
 
