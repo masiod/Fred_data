@@ -5,14 +5,6 @@ about datasets
 
 
 
-
-Columns in the two Datasets
-
-
-
-![image](https://github.com/masiod/Fred_data/assets/61286495/cbaa9bf8-9ccb-416c-973a-ae250f985e63)
-
-
 ## 1-Data Gathering
 
 
